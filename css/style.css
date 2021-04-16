@@ -1,0 +1,236 @@
+
+body {
+  background-color: seashell;
+  font-family: 'Antonio', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  z-index: 1;
+}
+
+.headshot {
+  max-width: 200px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  background-color: black;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-desktop {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar-desktop li a {
+  color: white;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-section {
+  background-image: url('../public/IMG_6567.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome-content {
+  margin-top: 100px;
+}
+
+.about-section h2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.brand-statement p {
+  padding: 20px;
+  text-align: left;
+}
+
+.prof-pic {
+  max-height: 300px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.resume-section {
+  margin-bottom: 50px;
+}
+
+.resume-section ul {
+  list-style: none;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* skills */
+
+.skills {
+  margin-top: 20px;
+}
+
+.skills h3 {
+  margin: 0 0 10px 20px;
+}
+
+.skills li {
+  margin-bottom: 1.3rem;
+}
+
+.tech-icon {
+  height: 3rem;
+}
+
+/**/
+
+/* experience */
+
+.experience {
+  margin-top: 20px;
+}
+
+.experience h3 {
+  margin: 0 0 10px 20px;
+}
+
+/*  */
+
+.projects-intro a {
+  text-decoration: none;
+}
+
+.chevron-down i {
+  font-size: 3rem;
+  transition: all 400ms ease;
+}
+
+.chevron-down i:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#chevronText {
+  color: black;
+  font-size: 1.3rem;
+  animation-duration: 400ms;
+  animation-timing-function: linear;
+}
+
+.projects-intro h1 {
+  margin-top: 100px;
+}
+
+.project-header {
+  margin-top: 50px;
+}
+
+.project-img {
+  opacity: 0.9;
+}
+
+.carousel-control-next {
+  margin-right: 50px;
+}
+
+.carousel-control-prev {
+  margin-left: 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: #000;
+  font-size: 2rem;
+}
+
+.carousel-caption {
+  background-color: white;
+  opacity: 0.8;
+  margin: 0 10px 0 10px;
+}
+
+.carousel-caption p, h4 {
+  color: black;
+}
+
+.carousel-caption p {
+  margin-bottom: 30px;
+}
+
+.carousel-caption h4 {
+  margin-bottom: 30px;
+}
+
+
+/* contact section */
+.contact-section {
+  margin-top: 100px;
+}
+
+.contact-header p {
+  margin: 100px 0 20px 0;
+}
+
+.contact-details i {
+  font-size: 1.5rem;
+}
+
+.contact-details i:hover {
+  opacity: 0.8;
+}
+
+.contact-details p {
+  font-size: 1.5rem;
+}
+
+.contact-details p:hover {
+  opacity: 0.8;
+}
+
+.contact-header p {
+  margin: 20px 0 20px 0;
+  font-size: 1.2rem;
+} 
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
