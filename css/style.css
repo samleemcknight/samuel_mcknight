@@ -77,6 +77,10 @@ nav {
   margin-bottom: 20px;
 }
 
+.bio {
+  padding: 0 20px 0 20px;
+}
+
 .brand-statement p {
   padding: 20px;
   text-align: left;
@@ -86,6 +90,7 @@ nav {
   max-height: 300px;
   border-radius: 20px;
   margin: 20px;
+  
 }
 
 .resume-section {
@@ -165,11 +170,11 @@ nav {
 }
 
 .carousel-control-next {
-  margin-right: 50px;
+  margin-right: 15px;
 }
 
 .carousel-control-prev {
-  margin-left: 50px;
+  margin-left: 15px;
 }
 
 .carousel-control-next, .carousel-control-prev {
